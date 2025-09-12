@@ -1,0 +1,20 @@
+#This is a string
+x = "wroihowu"
+
+#To input or output strings:
+name = (input("egobe"))
+print(name)
+
+#To add or subtract numbers:
+def add(x, y):
+    return(x+y)
+
+#For integers or numbers:
+a = int('5')
+bill = input("How much was the bill?")
+print(int(bill) * .20)
+
+#To print names:
+name = "mason"
+# use f string #
+print(f"his name is {name}")

@@ -55,16 +55,16 @@ triangle(100,90)
 We can manipulate variable values by using math operations. 
 Let's try creating squares that double in size everytime throught the loop  using
 ```python
+
+
+```
+The output should be 5 squares doubling in size from the previous square. 
 def doubleSquares(iRange):
     length = 25
     for i in range(iRange):
         square(length, 90)
         length = length * 2
 doubleSquares(5)
-
-```
-The output should be 5 squares doubling in size from the previous square. 
-
 We can also increase with addition or subtraction in a more succinct way
 ```python
 def addSquares(iRange):
