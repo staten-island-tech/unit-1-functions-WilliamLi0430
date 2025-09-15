@@ -18,3 +18,56 @@ print(int(bill) * .20)
 name = "mason"
 # use f string #
 print(f"his name is {name}")
+
+#Float
+bill = 3.14
+
+#lists
+students = ["Cadee", "Mason", "Andy"]
+#Can reference each item in a list by their index
+print(students[0]) #Prints Cadee
+
+#Add student
+students.append("Alina")
+
+#We can iterate or loop through a list
+for student in students:
+    print(student)
+
+
+#BooLean true or false
+x = True
+y= False 
+#Use double equal signs for evaluations
+if x == True:
+    print("hello Rodney")
+else: 
+    print("Goodbye Rodney")
+
+#Evaluations in lists
+students = ["Cadee", "Mason", "Andy"]
+if "Alina" in students:
+    print("She's here")
+else:
+    students.append("Alina")
+    print("We added Alina")
+
+x = 10
+if x < 10 :
+    print("Less")
+elif x == 10:
+    print("Equal")
+else:
+    print("Greater than 10")
+
+students = ["Cadee", "Mason", "Andy", "Alina"]
+for student in students:
+    found = False
+    if students == "Mason":
+        print("Found Mason")
+        found = True
+
+name = "Cadee"
+#print(name[0])
+for letter in name:
+    print(letter)
