@@ -52,6 +52,7 @@ else:
     students.append("Alina")
     print("We added Alina")
 
+#Inequalities
 x = 10
 if x < 10 :
     print("Less")
